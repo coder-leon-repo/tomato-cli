@@ -1,0 +1,26 @@
+{
+  "name": "tomato-fe-cli",
+  "version": "0.1.0",
+  "description": "",
+  "author": "Leon",
+  "main": "index.js",
+  "bin": {
+    "tomato": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^9.5.0",
+    "figlet": "^1.8.0",
+    "fs-extra": "^11.2.0",
+    "git-clone": "^0.2.0",
+    "inquirer": "^8.0.0",
+    "ora": "^5.0.0"
+  }
+}
